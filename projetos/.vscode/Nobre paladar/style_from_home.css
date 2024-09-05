@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+   background-color: black;
+}
+.navbar{
+    display: flex;
+   flex-flow: row wrap;
+   background-color: black;
+     height:100px;
+     justify-content: center;
+     align-items: center;
+    position: sticky;
+     top: 0%;
+     width:100%;
+}
+.Menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+    margin-right: 5%;
+}
+.Menu a{
+    text-decoration: none;
+    color:rgb(240, 240, 116);
+    margin-right:20px ;
+    font-size: 13px;
+}
+#destaque{
+    border-radius:11px ;
+    background-color:rgb(240, 240, 116) ;
+    color: black;
+    padding: 10px;
+    margin-left: 5px;
+}
+#destaque:hover{
+    background-color:white ;
+    color: black;
+
+}
+.Menu a:hover {
+    padding: 22px;
+    background-color:rgb(240, 240, 116);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    border-radius: 11px;
+}
+
+.logo{
+    flex:20% ;
+    margin-left: 5%;
+}
+.logo h1{
+    margin-left: 20px;
+    font-family: "Grey Qo", cursive;
+    color: rgb(240, 240, 116);
+    font-size: 50px;
+  max-width: 100%;
+}
+.header{
+    display: flex;
+    flex-flow: wrap row;
+   /* background-color: gray;*/
+}
+.headline{
+    flex: 45%;
+    margin-left: 5%;
+    /* border: 2px solid red; */
+    
+}
+.headline h3{
+    color: white;
+    margin-left: 20px;
+    margin-top: 25%;
+text-align: left;
+align-items: center;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0%;
+    /* border: 1px solid red; */
+}
+.headline p{
+    /* border: 1px solid red; */
+    color:white;
+text-align: center;
+align-items: center;
+    font-size: medium;
+    font-family: "Montserrat", sans-serif;
+
+}
+#buton{
+    display: inline-block; 
+    margin-left: 40%;
+     text-align: center;
+    align-items: center;
+    color:black;
+    background-color:rgb(240, 240, 116) ;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+   
+}
+#buton:hover{
+   padding:25px 35px ;
+   color: white;
+   font-size: medium;
+   margin-left: 38%;
+}
+.img{
+    flex: 45%;
+    margin-right: 5%;
+    /* border: 2px solid red; */
+
+}
+.img img{
+    border-radius: 20px;
+    opacity:0.7;
+    max-width:100%;
+    min-height:100%;
+    background-repeat:no-repeat ;    
+}
+section{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 80px;
+    /* border: 2px solid white; */
+  
+}
+section h3{
+    color: white;
+    max-width: 100%;
+    padding: 0%;
+    font-family: "Grey Qo", cursive;
+    font-size: 100px;
+    margin: 0%;
+    text-align: center;
+}
+.cardapio{
+    display: inline-block;
+    margin-top: 5%;
+    text-align: center;
+}
+.card{
+    box-shadow: 5px 5px 15px rgb(240, 240, 116);
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin:1%;
+    background-color: white;
+    border-radius: 10px;
+}
+.roda-pé{
+    max-width:100% ;
+    margin-top: 50px;
+   height: 200px;
+ background-image: linear-gradient( black,rgb(255, 255, 139));
+  border-top: 2px solid white;
+}
+.footer-text{
+    font-size: 70px;
+    text-align: center;
+    font-family: "Grey Qo", cursive;
+    text-shadow: 9px 9px 10px rgb(0, 0, 0);
+    color: rgb(240, 240, 116);
+}
+
+

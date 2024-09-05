@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Pacifico&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    box-sizing: border-box
+}
+body{
+    margin:0%
+}
+.navbar{
+    position: sticky;
+    background-color: black;
+    justify-content: center;
+    height: auto;
+    display: flex;
+
+}
+h1{
+    text-shadow: 4px 6px 5px blueviolet ;
+    color:white;
+    flex: 20%;
+    font-family:"pacifico";
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.navbar a{    font-family: "New Amsterdam";
+    margin-right: 15px;
+    max-width: max-content;
+    margin-top: 15px;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px ;
+    flex: 70%;
+    text-align: center ;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: black;
+}
+.navbar a:hover{
+    font-family: "source code pro";
+    padding: 12px;
+    color:white
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.login{
+    border-radius: 6px;
+    padding: 40px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin-left: 34%;
+    text-align: center;
+    margin-top: 80px;
+    background-color: black;
+    max-width: 30%;
+    height: auto;
+}
+label{
+    font-weight: 600;
+    font-size: large;
+    margin-left:20px ;
+    color: blueviolet;
+    font-family:"source code pro";
+}
+
+ hr{
+    margin-top:10% 
+ }
+#forms{ 
+    max-width: 60%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#password{
+    max-width: 60%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+p{
+    margin-top:20px;
+    margin-bottom:0%; 
+    color: rgb(218, 218, 218);
+}
