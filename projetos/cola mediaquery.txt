@@ -1,4 +1,4 @@
-Mediacarie 
+Mediaquery 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {...}
 
